@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Entendendo a Tag P no HTML: Seu Guia Completo</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header ul{
+        list-style-type: none; 
+        }
+    </style>
+  </head>
+  <body>
+    <h1 id="inicio">Tag <code>&lt;p&gt;</code> No HTML 5</h1>
+    <hr />
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#o-que-e-p">O que é a Tag P?</a></li>
+          <li><a href="#p-com-imagens">P com Imagens</a></li>
+          <li><a href="#p-com-videos">P com Vídeos</a></li>
+        </ul>
+      </nav>
+      <hr />
+    </header>
+
+    <main>
+      <article>
+        <section id="o-que-e-p">
+          <h1>O que é a Tag &lt;p&gt; no HTML?</h1>
+          <p>
+            A tag <code>&lt;p&gt;</code> é um dos elementos mais fundamentais do
+            HTML, utilizada para definir um <strong>parágrafo de texto</strong>.
+            Ela é essencial para organizar o conteúdo escrito em blocos
+            legíveis, tornando seu site mais fácil de entender tanto para os
+            visitantes quanto para os motores de busca.
+          </p>
+          <p>
+            Os navegadores automaticamente adicionam um espaço (margem) antes e
+            depois de cada elemento <code>&lt;p&gt;</code>, separando-o de
+            outros elementos. Isso cria um fluxo visual que melhora a leitura e
+            a estruturação do seu conteúdo.
+          </p>
+          <p>
+            Sempre que você tiver um bloco de texto coeso, considere envolvê-lo
+            com a tag <code>&lt;p&gt;</code> para garantir a correta semântica e
+            apresentação do seu documento HTML.
+          </p>
+        </section>
+
+        <hr />
+
+        <section id="p-com-imagens">
+          <h2>Usando a Tag &lt;p&gt; com Imagens</h2>
+          <p>
+            A tag <code>&lt;p&gt;</code> é ideal para texto, mas você pode
+            incorporar imagens próximas ao seu conteúdo. Embora seja possível
+            colocar uma tag <code>&lt;img&gt;</code> diretamente dentro de um
+            parágrafo, a prática recomendada para imagens com legendas é usar as
+            tags <strong><code>&lt;figure&gt;</code></strong> e
+            <strong><code>&lt;figcaption&gt;</code></strong
+            >. Isso garante uma melhor semântica e acessibilidade.
+          </p>
+          <figure>
+            <img
+              src="https://satellasoft.com/img/artigos/2020/06/117/figure-tag-02.webp"
+              alt="Figura de um balão laranja mostrando a representação de como inserir semanticamente uma imagem dentro de um paragrafo com as tags figure e figcaption"
+            />
+            <figcaption>Exemplo da tag &lt;p&gt; em HTML.</figcaption>
+          </figure>
+          <p>
+            No exemplo acima, a imagem está dentro de uma tag
+            <code>&lt;figure&gt;</code>, e sua legenda está dentro de
+            <code>&lt;figcaption&gt;</code>. Esse agrupamento semântico informa
+            ao navegador e às tecnologias assistivas que a imagem e a legenda
+            estão diretamente relacionadas ao conteúdo do parágrafo, mas são um
+            bloco separado de mídia.
+          </p>
+        </section>
+        <small><a href="#inicio">(Voltar)</a></small>
+
+        <hr />
+
+        <section id="p-com-videos">
+          <h2>Incorporando Vídeos do YouTube com a Tag &lt;p&gt;</h2>
+          <p>
+            Assim como as imagens, vídeos do YouTube (ou de outras plataformas)
+            são geralmente incorporados usando a tag
+            <code>&lt;iframe&gt;</code>. Você pode introduzir um vídeo com um
+            parágrafo de texto e, em seguida, colocar o
+            <code>&lt;iframe&gt;</code> que exibe o vídeo. É uma ótima maneira
+            de enriquecer seu conteúdo.
+          </p>
+          <div>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/UxzTv40xVfg?si=fsAcgd_IOa9nRApH"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+            <p>
+              <strong>Assista a um exemplo de vídeo:</strong> Este vídeo explica
+              a tag &lt;p&gt; do HTML 5.
+            </p>
+          </div>
+          <p>
+            Lembre-se de que o atributo <code>src</code> do
+            <code>&lt;iframe&gt;</code> deve ser o link de incorporação
+            fornecido pelo YouTube. Você pode ajustar a largura (
+            <code>width</code>) e altura (<code>height</code>) do vídeo.
+          </p>
+        </section>
+      </article>
+    </main>
+    <small><a href="#inicio">(Voltar)</a></small>
+
+    <hr />
+
+    <footer>
+      <p>
+        &copy; 2025 Blog sobre a Tag P no HTML5. Todos os direitos reservados.
+      </p>
+    </footer>
+  </body>
+</html>
